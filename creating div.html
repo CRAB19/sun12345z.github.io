@@ -47,6 +47,14 @@
 				background: pink;
 				border: 20px inset gray;
 			}
+			.magenta{
+				background: magenta;
+				border: 20px inset gray;
+			}
+			.brown{
+				background: brown;
+				border: 20px inset gray;
+			}
 		</style>
 	</head>
 	<body id="bodyId">
@@ -89,15 +97,26 @@
 				else if(counter==5){
 					var element=document.createElement("div");
 					element.appendChild(bodyId);
-					element.setAttribute("class" "green");
+					element.setAttribute("class" "yellow");
 					counter=6;
 				}
-				else if(){
+				else if(counter==6){
 					var element=document.createElement("div");
 					element.appendChild(bodyId);
-					element.setAttribute("class" "green");
+					element.setAttribute("class" "pink");
 					counter=7;
-					
+				}
+				else if(counter==7){
+					var element=document.createElement("div");
+					element.appendChild(bodyId);
+					element.setAttribute("class" "magenta");
+					counter=8;
+				}
+				else if(counter==8){
+					var element=document.createElement("div");
+					element.appendChild(bodyId);
+					element.setAttribute("class" "brown");
+
 				}
 			}, false);
 		</script>
