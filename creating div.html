@@ -62,7 +62,7 @@
 		<script>
 			var button=document.getElementById("creator");
 			counter=0;
-			
+			var bodyId=document.getElementById("bodyId");
 			button.addEventListener(click, function(){
 				if(counter==0){
 					var element=document.createElement("div");
@@ -116,7 +116,7 @@
 					var element=document.createElement("div");
 					element.appendChild(bodyId);
 					element.setAttribute("class" "brown");
-
+					counter=0;
 				}
 			}, false);
 		</script>
